@@ -5,9 +5,7 @@ public class Sequencing {
     // THIS CODE IS BROKEN UNTIL YOU FIX
 
     Scanner keyboard = new Scanner(System.in);
-    double price = 0, salesTax, total;
-
-
+    double price, salesTax, total;
 
     System.out.print( "How much is the purchase price? ");
     price = keyboard.nextDouble();
